@@ -61,22 +61,18 @@ Win11有但Win10没有的东西会消失，两者都有的会保留。专为Win1
 ![](../assets/images/win11-to-win10-8.png)
 
 确保你安装了 **支持解压缩ISO** 的软件，如 [Bandizip 官方网站 - 免费压缩软件下载 (Windows)](https://www.bandisoft.com/bandizip/) ，**解压ISO文件**
-![](../assets/images/explorer_xY0rowaOaU.gif)
 
 打开 **已解压的ISO** 文件夹，重命名 `setup.exe` 为 `setup1.exe`
 ![](../assets/images/win11-to-win10-11.png)
 
 更改文件属性 - 兼容性为 **Windows 8** 
-![](../assets/images/explorer_6TrQ3aXWcR.gif)
 
 下载伪装文件： [Win11ToWin10.zip](https://acofork-my.sharepoint.com/:u:/g/personal/af_acofork_onmicrosoft_com/ESxJWKgjjHVEhlNoBG4oNWUB_-rGTlLRh1CkXdLoxJsGpw?e=8s79zt) 目的是强制激活安装程序中的 **保数据升级** 
 
 解压出 `ei.cfg` 和 `setupcompat.dll` 。将其复制到ISO文件夹下的 `sources` 文件夹并替换其中已有的文件
 ![](../assets/images/win11-to-win10-13.png)
-![](../assets/images/explorer_9vcYIunVJH.gif)
 
 打开 `setup1.exe` ，**更改 Windows 安装程序下载更新的方式**，选择 **不是现在**，然后一路下一步
-![](../assets/images/SetupHost_dtT7QeMuhO.gif)
 
 等待变为 **准备就绪，可以安装** ，并确保 **保留个人文件和应用** ，选择 **安装** 
 ![](../assets/images/win11-to-win10.png)
@@ -114,6 +110,5 @@ sfc /scannow
 ```
 
 你还可能会遇到点击 Win 弹出开始菜单后打不开设置，我是这样解决的
-![](../assets/images/explorer_DqoWvdqpPS.gif)
 
 至此，已完美“升级”为Windows10
