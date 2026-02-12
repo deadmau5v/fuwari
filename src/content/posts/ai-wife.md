@@ -104,9 +104,17 @@ lang: ""
 
 ![](../assets/images/ai-wife-9.png)
 
+为了确保在生图的时候我们不无聊，可以前往设置开启实时预览功能，将 **实时预览** 改为 **自动** 即可
+
+![](../assets/images/ai-wife-16.png)
+
 接下来点击右上角的运行，哦对了，你还可以编辑旁边的数字来一次性生成多张图片
 
 ![](../assets/images/ai-wife-10.png)
+
+由于我们开启了实时预览，你可以看到模型每一步的绘画进度
+
+![](../assets/images/ComfyUI_UkQQZG4KkW.gif)
 
 点击右上角的资产，可以展开，查看大图
 
